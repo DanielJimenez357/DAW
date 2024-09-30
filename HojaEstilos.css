@@ -1,34 +1,41 @@
 header {
-    background-color: #C64B0D;
+    background-color: #3a82ee;
     font-size: 40px;
     padding: 50px ;
     text-align: center;
 }
 
-ul {
-    background-color:#5A0609;
+#nav {
+    background-color:#191b1f;
     margin: 0;
     width: 250px;
     padding: 0;
-    height: 100%;
-    position: fixed;
+    height: 60%;
+    position: sticky;
+    top: 20%;
 }
 
 li {
     display: block;
-    padding:  50px 16px;
+    padding:  60px 0px;
     font-size: 30px;
+    color:rgb(207, 204, 204)
     
 }
 
 li:hover {
-    background-color: #A62522;
+    background-color: #3a82ee;
 }
 
 body {
-    background: #C98025;
+    background: #6d98da;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    text-align: center;
+#home {
+    margin-left: 20%;
+    max-width: 30%;
+    font-size: 20px;
+    margin-top: -35%;
+    
 }
